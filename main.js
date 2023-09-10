@@ -69,7 +69,7 @@ global.db.chain = chain(global.db.data)
 }
 loadDatabase()
 
-/* Creditos a Otosaka (https://wa.me/51992621601) */
+/* Creditos a Otosaka (https://wa.me/528341161685) */
 
 global.chatgpt = new Low(new JSONFile(path.join(__dirname, "/db/chatgpt.json")));
 global.loadChatgptDB = async function loadChatgptDB() {
@@ -113,7 +113,7 @@ return { conversation: "hello, i'm BrunoSobrino" }},
 msgRetryCounterMap,
 logger: pino({ level: 'silent' }),
 auth: state,
-browser: ['Aleizn','Safari','9.7.0'],
+browser: ['TheBrothers','Safari','9.7.0'],
 version   
 }
 
